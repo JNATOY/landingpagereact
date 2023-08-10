@@ -3,17 +3,19 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <section className='grid grid-cols-1 md:grid-cols-8 h-[90vh] bg-cover' style={{ backgroundImage: 'url("https://i.postimg.cc/wMDYQRs8/1604080690-new-header-bg1.webp")' }}>
+
+
+    <section className='grid grid-cols-1 md:grid-cols-8 h-[120vh] bg-cover' style={{ backgroundImage: 'url("https://i.postimg.cc/wMDYQRs8/1604080690-new-header-bg1.webp")' }}>
       {/* Nueva fila */}
-      <div className='md:col-span-8 flex items-center justify-center py-20 text-white'>
-        <div className='text-center'>
-          <h3 className='text-2xl'>Worlds Best Push-Button App For </h3>
+      <div className='md:col-span-8 grid grid-rows-3 gap-1 items-center justify-center py-20 text-white'>
+        <div className='row-span-1 text-center'>
+          <h3 className='text-xl md:text-3xl'>Las mejores plantillas </h3>
         </div>
-        <div className='text-center'>
-          <h1 className='text-2xl'>Unlimited FREE Buyer Traffic On Autopilot</h1>
+        <div className='row-span-1 text-center'>
+          <h1 className='text-3xl md:text-5xl'>Unlimited FREE <span className='underline'>Buyer Traffic</span> On Autopilot</h1>
         </div>
-        <div className='text-center'>
-          <h2 className=' text-2xl'>In Any Niche … ALL DAY EVERY DAY!</h2>
+        <div className='row-span-1 text-center'>
+          <h2 className='text-2xl md:text-4xl'>In Any Niche … <span className='text-amber-400'>ALL DAY EVERY DAY!</span></h2>
         </div>
       </div>
 
