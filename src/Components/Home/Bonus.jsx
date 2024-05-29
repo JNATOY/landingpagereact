@@ -15,7 +15,7 @@ function Bonus() {
                 <div>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-2 md:py-10">
                         <img
-                            src='../../../img/fondo.png'
+                            src='../../../img/Bonus.png'
                             alt="Arfan"
                             className="w-full md:w-6/12 rounded-lg object-cover"
                         />
@@ -65,7 +65,7 @@ function Bonus() {
             <div className='border-dashed border-fuchsia-700 rounded-2xl border-8 '>
                 <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-12">
                     <img
-                        src='../../../img/fondo.png'
+                        src='../../../img/Bonus.png'
                         alt="Arfan"
                         className="w-full md:w-6/12 rounded-lg object-cover"
                     />

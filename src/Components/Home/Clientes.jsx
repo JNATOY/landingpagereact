@@ -42,7 +42,7 @@ function Clientes() {
                         </div>
                     </div>
                     <img
-                        src='/src/assets/images/competencia.png'
+                        src='../../../img/competencia.png'
                         alt="Arfan"
                         className="h-420 w-290 rounded-lg object-cover"
                     />

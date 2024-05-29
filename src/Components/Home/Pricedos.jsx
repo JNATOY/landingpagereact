@@ -26,7 +26,7 @@ function Pricedos() {
                 <div>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-2 md:py-10">
                         <img
-                            src='/src/assets/images/competencia.png'
+                            src='../../../img/competencia.png'
                             alt="Arfan"
                             className="h-420 w-290 rounded-lg object-cover"
                         />
