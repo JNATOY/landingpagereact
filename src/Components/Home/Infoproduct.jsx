@@ -14,7 +14,7 @@ function Infoproduct() {
                 <div>
                     <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-12">
                         <img
-                            src='../../../img/presupuesto.png'
+                            src='https://i.postimg.cc/Ls1dx1nx/presupuesto.png'
                             alt="Arfan"
                             className="w-full md:w-6/12 rounded-lg object-cover"
                         />
