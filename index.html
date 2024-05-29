@@ -1,13 +1,50 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PRODATE</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <link rel="stylesheet" href="img/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="img/owlcarousel/owl.theme.default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRODATE</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script type="module" src="/src/app.css"></script>
+  <script src="img/owlcarousel/jquery-3.7.0.min.js"></script>
+  <script src="img/owlcarousel/owl.carousel.min.js">
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+
+    $('.menu-icon').click(function () {
+      $('header nav').slideToggle();
+    })
+  </script>
+
+  <!-- Solo mantenemos el bloque de WhatsApp en la parte inferior derecha -->
+  <section id="whatsapp" style="position: fixed; bottom: 10px; right: 10px;">
+    <a href="https://wa.me/+511910841447">
+      <img src="img/whatsapp.png" alt="no disponible">
+    </a>
+  </section>
+</body>
+
 </html>

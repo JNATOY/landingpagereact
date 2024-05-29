@@ -1,20 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import AboutUs from './Screens/AboutUs';
+import ContactUs from "./Screens/ContactUs";
+import HomeScreen from './Screens/HomeScreen';
+// import GlobalApi from '../Services/GlobalApi'
 
 function App() {
-
   return (
-    <>
-    <div className='App'>
-      <Header/>
-      <Hero/>
-    </div>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<HomeScreen />} />
+      <Route path='/d' element={<AboutUs />} />
+      <Route path='/contacto' element={<ContactUs />} />
+    </Routes>
+    //  <Hero />
+    // <Search />
+    // <IntroPost />
+    // <Blogs />
+    // <Faqs />
+  );
 }
 
-export default App
+export default App;
