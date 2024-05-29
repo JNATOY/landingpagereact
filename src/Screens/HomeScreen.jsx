@@ -6,7 +6,7 @@ import Testimonials from '../Components/Home/Testimonials';
 import Bonus from '../Components/Home/Bonus';
 import Carousel from '../Components/Home/Carousel';
 import Price from '../Components/Home/Price';
-import Infoproduct from '../Components/Home/infoproduct';
+import Infoproduct from '../Components/Home/Infoproduct';
 import Clientes from '../Components/Home/Clientes';
 import Pricedos from '../Components/Home/Pricedos';
 

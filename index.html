@@ -16,27 +16,30 @@
   <script type="module" src="/src/main.jsx"></script>
   <link rel="stylesheet" href="/src/App.css">
   <script src="img/owlcarousel/jquery-3.7.0.min.js"></script>
-  <script src="img/owlcarousel/owl.carousel.min.js">
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 4
+  <script src="img/owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 4
+          }
         }
-      }
-    })
+      });
 
-    $('.menu-icon').click(function () {
-      $('header nav').slideToggle();
-    })
+      $('.menu-icon').click(function () {
+        $('header nav').slideToggle();
+      });
+    });
   </script>
 
   <!-- Solo mantenemos el bloque de WhatsApp en la parte inferior derecha -->
